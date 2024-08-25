@@ -1,0 +1,56 @@
+body {
+    background-color: grey;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .numeral-converter {
+    width: 500px;
+    height: 250px;
+    background-color: black;
+    display: flex;
+    margin: 0 auto;
+    border: 2px solid white;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  h2 {
+    margin: 20px auto;
+  }
+  
+  #number {
+    height: 50px;
+    width: 400px;
+    margin: 20px auto;
+    background-color: white;
+    border: 2px solid grey;
+    caret-color: grey;
+  }
+  
+  #convert-btn {
+    height: 40px;
+    width: 400px;
+    margin: 20px auto;
+    background-color: green;
+    border: 2px solid white;
+    font-size: 20px;
+  }
+  
+  #convert-btn:hover {
+    cursor: pointer;
+  }
+  
+  #output {
+    height: 100px;
+    width: 500px;
+    margin: 50px auto;
+    background-color: black;
+    border: 2px solid white;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+  }
